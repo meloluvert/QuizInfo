@@ -12,11 +12,11 @@
 
         
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
+      <header class="masthead mb-3">
         <div class="inner">
-          <nav class="nav nav-masthead d-flex justify-content-around">
+          <nav class="nav nav-masthead d-flex justify-content-around" style="height: 100px">
 
-            <img src="{!! asset('resources/img/logo.png')!!}" />
+            <img class="img-thumbnail mh-100" src="{{ asset('storage/imgs/logo.png')}}" />
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="#">Features</a>
             <a class="nav-link" href="#">Contatos</a>
