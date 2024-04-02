@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/quiz', function () {
-    return view('quiz');
-});
+Route::get('/inicio', [App\Http\Controllers\quizMusica::class,'index']) -> name('iniciar');
+Route::post('/quiz', [App\Http\Controllers\quizMusica::class, 'dadosPagina'])->name('dadosPagina');
+

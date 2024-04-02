@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>MÚSICA</title>
+  <link rel="shortcut icon" href="{{ asset('storage/imgs/logo.png')}}" type="image/x-icon">
     @vite (['resources/js/app.js'])
 </head>
 <body>
@@ -16,10 +16,10 @@
         <div class="inner">
           <nav class="nav nav-masthead d-flex justify-content-around" style="height: 100px">
 
-            <img class="img-thumbnail mh-100" src="{{ asset('storage/imgs/logo.png')}}" />
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contatos</a>
+            <img class=" mh-100" src="{{ asset('storage/imgs/logo.png')}}" />
+            <a class="nav-link active display-4" href="/">Home</a>
+            <a class="nav-link display-4" href="#">Features</a>
+            <a class="nav-link display-4" href="#">Contatos</a>
           </nav>
         </div>
       </header>
