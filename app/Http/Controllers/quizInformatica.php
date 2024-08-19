@@ -70,7 +70,7 @@ class quizInformatica extends Controller
             $allQuestions[4]['op'][4] = '1234:5678:9abc:def0';
 
             $allQuestions[5]['titulo'] = 'Qual dessas é considerada uma estrutura de dados?';
-            $allQuestions[5]['op'][1] = 'Lista';
+            $allQuestions[5]['op'][1] = 'While';
             $allQuestions[5]['op'][2] = 'Árvore binária';
             $allQuestions[5]['op'][3] = 'Arquivo de texto';
             $allQuestions[5]['op'][4] = 'Algoritmo';
@@ -78,7 +78,7 @@ class quizInformatica extends Controller
             $allQuestions[6]['titulo'] = 'O que é um backbone?';
             $allQuestions[6]['op'][1] = 'Uma parte da placa-mãe';
             $allQuestions[6]['op'][2] = 'Um cabo de fibra ótica';
-            $allQuestions[6]['op'][3] = 'A estrutura principal de uma rede';
+            $allQuestions[6]['op'][3] = 'Malha da internet';
             $allQuestions[6]['op'][4] = 'Um tipo de processador';
 
             $allQuestions[7]['titulo'] = 'Qual dessas portas é usada para o protocolo HTTP?';
