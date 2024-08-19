@@ -2,9 +2,9 @@
 @section('content')
 <div class="jumbotrom d-flex justify-content-around flex-row">
     <div class="w-50">
-        <img src="{{ asset('storage/imgs/instruments.jpg') }}" alt="" style="max-width: 100%" />
+        <img src="{{ asset('storage/imgs/info.webp') }}" alt="" style="max-width: 100%" />
     </div>      
-    <form action="{{route('dadosPagina')}}" class="p-3 w-50 display-6"" method="POST">
+    <form action="{{route('dadosPagina')}}" class="p-3 w-50 display-6" method="POST">
         @csrf
 
         {{$number}}.{{$allQuestions[$number]['titulo']}}

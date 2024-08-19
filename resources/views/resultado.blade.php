@@ -4,7 +4,7 @@
 @section('content')
     <div class="jumbotrom d-flex justify-content-around flex-row">
         <div class="w-50">
-            <img src="{{ asset('storage/imgs/instruments.jpg') }}" alt="" />
+            <img src="{{ asset('storage/imgs/meme.jpeg') }}" alt="" />
         </div>
         <div class="w-50 flex-column ">
             <div class =" row">
